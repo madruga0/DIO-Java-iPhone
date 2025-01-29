@@ -1,6 +1,8 @@
 package edu.PilaresPOO_IPC.DesafioiPhone.aparelhotelefonico;
 
-public class AparelhoTelefonico {
+import edu.PilaresPOO_IPC.DesafioiPhone.navegadorinternet.NavegadorInternet;
+
+public class AparelhoTelefonico extends NavegadorInternet {
 
     public void ligar(String numero) {
         atender();
