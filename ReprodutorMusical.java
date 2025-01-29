@@ -1,6 +1,8 @@
 package edu.PilaresPOO_IPC.DesafioiPhone.reprodutormusical;
 
-public class ReprodutorMusical {
+import edu.PilaresPOO_IPC.DesafioiPhone.aparelhotelefonico.AparelhoTelefonico;
+
+public class ReprodutorMusical extends AparelhoTelefonico {
 
     public void selecionarMusica(String musica) {
         tocar();
