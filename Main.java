@@ -5,9 +5,10 @@ public class Main {
 
         ServicosiPhone iphone = new ServicosiPhone();
 
-        iphone.reprodutorMusical.selecionarMusica("Red Hot Chilli Peppers");
-        iphone.navegadorInternet.exibirPagina("https://helle.com");
-        iphone.aparelhoTelefonico.ligar("12934567654");
-
+        iphone.ligar("81998392");
+        
+        iphone.exibirPagina("htpp://localhost");
+        
+        iphone.selecionarMusica("Enter Sandman - Metallica");
     }
 }
